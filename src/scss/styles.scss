@@ -23,3 +23,39 @@ body {
     width: 360px;
     height: 220px;
 }
+
+.cards-header {
+    width: 240px; 
+    height: 100px; 
+    top: 15%; 
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.old-price {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    color: #929292;
+}
+
+.arrow {
+    position: fixed;
+    height: 187px;
+    right: 0;
+}
+
+.prices-container {
+    width: 240px;
+}
+
+.best-value {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ribbon {
+    position: absolute;
+    top: -14px;
+    left: -14px;
+}

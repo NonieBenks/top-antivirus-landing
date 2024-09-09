@@ -13,6 +13,7 @@
 </head>
 <body>
     <div class="container-fluid vh-100 d-flex flex-column justify-content-between">
+        <img class="arrow" src="./src/assets/arrow.svg" alt="Open file">
         <header class="row p-3 bg-dark text-light text-uppercase fw-medium fs-5 vh-10"> 
             <div class="col-sm-1 col-0"></div>
             <div class="col-auto col-sm-8 ps-sm-1"><span class="text-warning border-end py-1 pe-1">Top antivirus</span><span class="p-1">PC APP STORE™</span></div>
@@ -25,7 +26,8 @@
                 <div class="cards-container container-fluid">
                     <div class="row">
                         <div class="card col-xl border-0 z-0 d-flex align-items-center">
-                            <div class="z-1 position-relative border-0 bg-white bebas-neue-regular d-flex justify-content-center align-items-center" style="width: 240px; height: 100px; top:30px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.25)">
+                            <div class="cards-header z-1 position-relative border-0 bg-white bebas-neue-regular d-flex justify-content-center align-items-center">
+                                <img class="best-value" src="./src/assets/best_value.svg" alt="Best value">
                                 <p class="m-0"><span class="large-text">1.02$</span>/per year</p>
                             </div>
                             <div  class="card-body z-0 d-flex align-items-center justify-content-evenly flex-column px-5 pb-3 pt-5 fw-light" style="background-color: #f3f5f6;">
@@ -40,7 +42,7 @@
                             </div>
                         </div>
                         <div class="card col-xl border-0 z-0 d-flex align-items-center">
-                            <div class="z-1 position-relative border-0 bg-white bebas-neue-regular d-flex justify-content-center align-items-center" style="width: 240px; height: 100px; top:30px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.25)">
+                            <div class="cards-header z-1 position-relative border-0 bg-white bebas-neue-regular d-flex justify-content-center align-items-center">
                                 <p class="m-0"><span class="large-text">39.99$</span>/per year</p>
                             </div>
                             <div  class="card-body z-0 d-flex align-items-center justify-content-evenly flex-column px-5 pb-3 pt-5 fw-light" style="background-color: #f3f5f6;">
@@ -55,8 +57,12 @@
                             </div>
                         </div>
                         <div class="card col-xl border-0 z-0 d-flex align-items-center">
-                            <div class="z-1 position-relative border-0 bg-white bebas-neue-regular d-flex justify-content-center align-items-center" style="width: 240px; height: 100px; top:30px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.25)">
-                                <p class="m-0"><span class="large-text">4.99$</span>/mo</p>
+                            <div class="cards-header z-1 position-relative border-0 bg-white d-flex justify-content-center align-items-center">
+                                <img class="ribbon" src="./src/assets/ribbon.svg" alt="50% off">
+                                <div class="prices-container">
+                                    <div class="bebas-neue-regular"><span class="large-text">4.99$</span>/mo</div>
+                                    <div class="text-decoration-line-through old-price">9.99$</div>
+                                </div>
                             </div>
                             <div  class="card-body z-0 d-flex align-items-center justify-content-evenly flex-column px-5 pb-3 pt-5 fw-light" style="background-color: #f3f5f6;">
                                 <div>
@@ -83,5 +89,6 @@
             <div class="col-sm-1 col-0"></div>
         </footer>
     </div>
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
