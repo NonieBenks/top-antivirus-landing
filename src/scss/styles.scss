@@ -1,0 +1,25 @@
+body {
+    font-size: 1rem;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.large-text {
+    font-size: 3rem;
+}
+
+.download-btn {
+    padding: 10px;
+    border: none;
+    font-size: 1.1rem;
+    max-width: fit-content;
+    background: linear-gradient(0deg, #130999 -0.01%, #174D8F 35.01%, #1A7F87 64.91%, #1C9E83 87.44%, #1DAA81 99.99%);
+}
+
+.card-body {
+    width: 360px;
+    height: 220px;
+}

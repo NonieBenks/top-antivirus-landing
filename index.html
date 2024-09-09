@@ -3,20 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="stylesheet" href="dist/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="vh-100 d-flex flex-column justify-content-between">
-        <header class="bg-dark text-light"> 
-            <h4><span class="text-warning">Top antivirus</span> | <span>PC App Store</span> </h4>
+    <div class="container-fluid vh-100 d-flex flex-column justify-content-between">
+        <header class="row p-3 bg-dark text-light text-uppercase fw-medium fs-5 vh-10"> 
+            <div class="col-sm-1 col-0"></div>
+            <div class="col-auto col-sm-8 ps-sm-1"><span class="text-warning border-end py-1 pe-1">Top antivirus</span><span class="p-1">PC APP STORE™</span></div>
+            <div class="col-sm-1 col-0"></div>
         </header>
-        <main class="">
-            <h2>Thank you for choosing our product!</h2>
+        <main class="row-auto text-center py-5">
+            <div class="col"></div>
+            <div class="col-auto p-0">
+                <h2 class="text-uppercase bebas-neue-regular large-text">Thank you for choosing our product!</h2>
+                <div class="cards-container container-fluid">
+                    <div class="row">
+                        <div class="card col-xl border-0 z-0 d-flex align-items-center">
+                            <div class="z-1 position-relative border-0 bg-white bebas-neue-regular d-flex justify-content-center align-items-center" style="width: 240px; height: 100px; top:30px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.25)">
+                                <p class="m-0"><span class="large-text">1.02$</span>/per year</p>
+                            </div>
+                            <div  class="card-body z-0 d-flex align-items-center justify-content-evenly flex-column px-5 pb-3 pt-5 fw-light" style="background-color: #f3f5f6;">
+                                <div>
+                                    <p class="m-0">McAfee® Total Protection</p>
+                                    <p class="fw-bold">1Year / 1-Device</p>
+                                </div>
+                                <button class="download-btn m-2 rounded-pill text-uppercase text-light w-80 d-flex align-items-center justify-content-end">
+                                    <span class="px-3">Download</span>
+                                    <img src="./src/assets/download.svg" alt="download">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card col-xl border-0 z-0 d-flex align-items-center">
+                            <div class="z-1 position-relative border-0 bg-white bebas-neue-regular d-flex justify-content-center align-items-center" style="width: 240px; height: 100px; top:30px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.25)">
+                                <p class="m-0"><span class="large-text">39.99$</span>/per year</p>
+                            </div>
+                            <div  class="card-body z-0 d-flex align-items-center justify-content-evenly flex-column px-5 pb-3 pt-5 fw-light" style="background-color: #f3f5f6;">
+                                <div>
+                                    <p class="m-0">McAfee® Total Protection</p>
+                                    <p class="fw-bold">3Year / 1-Device</p>
+                                </div>
+                                <button class="download-btn m-2 rounded-pill text-uppercase text-light w-80 d-flex align-items-center justify-content-end">
+                                    <span class="px-3">Download</span>
+                                    <img src="./src/assets/download.svg" alt="download">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card col-xl border-0 z-0 d-flex align-items-center">
+                            <div class="z-1 position-relative border-0 bg-white bebas-neue-regular d-flex justify-content-center align-items-center" style="width: 240px; height: 100px; top:30px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.25)">
+                                <p class="m-0"><span class="large-text">4.99$</span>/mo</p>
+                            </div>
+                            <div  class="card-body z-0 d-flex align-items-center justify-content-evenly flex-column px-5 pb-3 pt-5 fw-light" style="background-color: #f3f5f6;">
+                                <div>
+                                    <p class="m-0">McAfee® Total Protection</p>
+                                    <p class="fw-bold">1-Device (Monthly)</p>
+                                </div>
+                                <button class="download-btn m-2 rounded-pill text-uppercase text-light w-80 d-flex align-items-center justify-content-end">
+                                    <span class="px-3">Download</span>
+                                    <img src="./src/assets/download.svg" alt="download">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
         </main>
-        <footer>
-            <h4>Top antivirus</h4>
+        <footer class="row p-3 bg-dark text-light">
+            <div class="col-sm-1 col-0"></div>
+            <div class="col-8 ps-sm-1">        
+                <h4 class="text-warning text-uppercase fs-5">Top antivirus</h4>
+                <p class="m-0">Copyright © 2021</p>
+            </div>
+            <div class="col-sm-1 col-0"></div>
         </footer>
     </div>
 </body>
